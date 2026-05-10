@@ -222,12 +222,14 @@ main{
 
 .video-box{
     background: rgba(30, 41, 59, 0.8);
-
+    display: grid;
+    gap: 20px;
     border-radius: 24px;
     padding: 20px;
-
+    justify-items: center;
     border: 1px solid rgba(255,255,255,0.05);
 }
+
 
 .video-placeholder{
     height: 320px;
